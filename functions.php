@@ -128,6 +128,15 @@ if ( ! function_exists( 'ipsum_block_styles' ) ) :
 				'inline_style' => '.wp-block-code.is-style-evening{background-color:#000000;color:#fafafa;border-color:#fafafa40;}',
 			)
 		);
+
+		register_block_style(
+			'core/site-logo',
+			array(
+				'name'         => 'squared',
+				'label'        => _x( 'Squared', 'Block style label', 'ipsum' ),
+				'inline_style' => '.wp-block-site-logo.is-style-squared{border-radius:0;}',
+			)
+		);
 	}
 endif;
 add_action( 'init', 'ipsum_block_styles' );
