@@ -590,10 +590,7 @@
 			},
 			"core/buttons": {
 				"spacing": {
-					"blockGap": {
-						"left": "var(--wp--preset--spacing--30)",
-						"top": "var(--wp--preset--spacing--30)"
-					}
+					"blockGap": "var(--wp--preset--spacing--30)"
 				}
 			},
 			"core/calendar": {
@@ -1105,9 +1102,7 @@
 			},
 			"core/social-links": {
 				"spacing": {
-					"blockGap": {
-						"left": "var(--wp--preset--spacing--30)"
-					}
+					"blockGap": "var(--wp--preset--spacing--30)"
 				},
 				"variations": {
 					"logos-only": {
